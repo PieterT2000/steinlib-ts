@@ -1,12 +1,14 @@
----
-
 # SteinLib Typescript Parser
 
 Inspired by [Python SteinLib](https://github.com/leandron/steinlib)
 
 [![npm package][npm-img]][npm-url]
+[![Build Status][build-img]][build-url]
+[![Issues][issues-img]][issues-url]
+[![Commitizen Friendly][commitizen-img]][commitizen-url]
+[![License][license-img]][license-url]
 
-> A Typescript parser for the SteinLib format
+> A Typescript parser for the [SteinLib](https://steinlib.zib.de/format.php) format
 
 ## Install
 
@@ -49,9 +51,6 @@ const parser = new SteinlibParser(lines, callbacks);
 parser.parse();
 ```
 
-[npm-img]: https://img.shields.io/npm/v/steinlib-ts
-[npm-url]: https://www.npmjs.com/package/steinlib-ts
-
 ## Examples
 
 **1. Clone the repository**
@@ -72,3 +71,16 @@ npm i
 ```bash
 bun examples/demo.ts
 ```
+
+[npm-img]: https://img.shields.io/npm/v/steinlib-ts
+[npm-url]: https://www.npmjs.com/package/steinlib-ts
+[commitizen-img]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[commitizen-url]: http://commitizen.github.io/cz-cli/
+[issues-img]: https://img.shields.io/github/issues/PieterT2000/steinlib-ts
+[issues-url]: https://github.com/PieterT2000/steinlib-ts/issues
+[downloads-img]: https://img.shields.io/npm/dt/steinlib-ts
+[downloads-url]: https://www.npmtrends.com/steinlib-ts
+[build-img]: https://github.com/PieterT2000/steinlib-ts/actions/workflows/changeset.yaml/badge.svg
+[build-url]: https://github.com/PieterT2000/steinlib-ts/actions/workflows/changeset.yaml
+[license-img]: https://img.shields.io/github/license/PieterT2000/steinlib-ts
+[license-url]: https://github.com/PieterT2000/steinlib-ts/blob/main/LICENSE
