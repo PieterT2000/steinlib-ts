@@ -36,8 +36,8 @@ jobs:
         with:
           commit: "chore: update versions"
           title: "chore: update versions"
-          version: npm ci:version
-          publish: npm ci:publish
+          version: npm run ci:version
+          publish: npm run ci:publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
