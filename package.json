@@ -7,7 +7,10 @@
     "url": "https://github.com/pietert2000"
   },
   "homepage": "https://github.com/pietert2000/steinlib-ts",
-  "repository": "github:pietert2000/steinlib-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pietert2000/steinlib-ts.git"
+  },
   "bugs": {
     "url": "https://github.com/pietert2000/steinlib-ts/issues"
   },
