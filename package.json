@@ -4,15 +4,16 @@
   "description": "Typescript parser for SteinLib",
   "author": {
     "name": "Pieter van Tuijl",
-    "url": "https://github.com/pietert2000"
+    "email": "pietert2000@users.noreply.github.com",
+    "url": "https://github.com/PieterT2000"
   },
-  "homepage": "https://github.com/pietert2000/steinlib-ts",
+  "homepage": "https://github.com/PieterT2000/steinlib-ts/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pietert2000/steinlib-ts.git"
+    "url": "git+https://github.com/PieterT2000/steinlib-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/pietert2000/steinlib-ts/issues"
+    "url": "https://github.com/PieterT2000/steinlib-ts/issues"
   },
   "license": "MIT",
   "keywords": [
